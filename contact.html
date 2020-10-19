@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+          crossorigin="anonymous">
+    <style>
+        body { background-color: purple; }
+    </style>
+</head>
+<body>
+<nav>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Quiz</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Kontakt</a>
+        </li>
+    </ul>
+</nav>
+<form>
+    <ul>
+        <div>
+            <label> Imie </label>
+        </div>
+        <div class="form-group">
+            <input type="text" name="imie" placeholder="wpisz imie">
+        </div>
+        <div>
+            <label> Nazwisko </label>
+        </div>
+        <div class="form-group">
+            <input type="text" name="nazwisko" placeholder="wpisz nazwisko">
+        </div>
+        <div>
+            <label> Adres E-mail</label>
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="wpisz email">
+        </div>
+        <div>
+            <label> Narodowość </label>
+        </div>
+        <div class="form-group">
+            <select>
+                <option value="wartość1">Polska</option>
+                <option value="wartość2">NiePolska</option>
+                <option value="wartość3">Kosmos</option>
+            </select>
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-group form-check-label" for="exampleCheck1">Nie jestem robotem</label>
+        </div>
+        <button type="submit" class="btn btn-primary">WYSLIJ</button>
+    </ul>
+</form>
+</body>
+</html>
