@@ -1,0 +1,19 @@
+nav ul li
+{
+    display: inline;
+}
+img {
+    width: 350px;
+    height: 350px;
+}
+a:hover
+{
+    background-color: green;
+    color: cyan;
+    transition: all 1s;
+}
+body
+{
+    background-color: purple;
+}
+
